@@ -15,13 +15,13 @@
     "minimum-stability": "dev",
     "require": {
         "php": ">=5.4.0",
-        "yiisoft/yii2": "~2.0.6",
+        "mixartemev/yii2": "dev-master",
         "yiisoft/yii2-bootstrap": "~2.0.0",
         "yiisoft/yii2-swiftmailer": "~2.0.0"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "~2.0.0",
-        "yiisoft/yii2-gii": "~2.0.0",
+        "mixartemev/yii2-gii": "dev-master",
         "yiisoft/yii2-faker": "~2.0.0",
         "codeception/base": "^2.2.3",
         "codeception/verify": "~0.3.1"
@@ -33,6 +33,30 @@
         {
             "type": "composer",
             "url": "https://asset-packagist.org"
+        },
+        {
+            "type":"package",
+            "package":{
+                "name":"mixartemev/yii2,
+                "version":"dev-master",
+                "source":{
+                    "type":"git",
+                    "url":"https://github.com/mixartemev/yii2",
+                    "reference":"master"
+                }
+            }
+        },
+        {
+            "type":"package",
+            "package":{
+                "name":"mixartemev/yii2-gii
+                "version":"dev-master",
+                "source":{
+                    "type":"git",
+                    "url":"https://github.com/mixartemev/yii2-gii",
+                    "reference":"master"
+                }
+            }
         }
     ]
 }
